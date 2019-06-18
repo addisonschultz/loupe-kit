@@ -16,3 +16,34 @@ We have a few pre-requisites you'll need in order to follow along.
 - git
 - Text/Code Editor
 - Framer X
+
+### Instructions
+
+We'll be using styled-components to make designing and coding our components more streamlined. This also allows us to integrate more fully with Framer X, if we use variables from Framer inside of our code.
+
+Using Colors Example:
+
+Using Spacing Example:
+
+Using Fonts Example:
+
+### Components
+
+We have a list of components you can pick from to help build our design system:
+
+- Button
+- Link
+- Card
+- Banner
+- Checkbox
+- Radio Button
+- Navigation
+- Icon
+- Chip
+- List
+- Input
+- Select
+- Segment
+- Loader
+- Slider
+- Stepper
