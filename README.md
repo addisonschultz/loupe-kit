@@ -33,21 +33,21 @@ const StyledElement = styled.div`
 
 There are a total of 8 colors from the Loupe Design System:
 
-`primary` - <span style="background:#0055FF; color: white">#0055FF</span>
+`primary` - ![#0055FF](https://placehold.it/15/0055FF/000000?text=+) <span style="background:#0055FF; color: white">#0055FF</span>
 
-`secondary` - <span style="background:#98E7FF; color: black">#98E7FF</span>
+`secondary` - ![#98E7FF](https://placehold.it/15/98E7FF/000000?text=+) <span style="background:#98E7FF; color: black">#98E7FF</span>
 
-`accentLight` - <span style="background:#E7FFF7; color: black">#E7FFF7</span>
+`accentLight` - ![#E7FFF7](https://placehold.it/15/E7FFF7/000000?text=+) <span style="background:#E7FFF7; color: black">#E7FFF7</span>
 
-`accentDark` - <span style="background:#FFC6A8; color: black">#FFC6A8</span>
+`accentDark` - ![#FFC6A8](https://placehold.it/15/FFC6A8/000000?text=+) <span style="background:#FFC6A8; color: black">#FFC6A8</span>
 
-`black` - <span style="background:#000000; color: white">#000000</span>
+`black` - ![#000000](https://placehold.it/15/000000/000000?text=+) <span style="background:#000000; color: white">#000000</span>
 
-`grey` - <span style="background:#8A8A8A; color: white">#8A8A8A</span>
+`grey` - ![#8A8A8A](https://placehold.it/15/8A8A8A/000000?text=+) <span style="background:#8A8A8A; color: white">#8A8A8A</span>
 
-`lightGrey` - <span style="background:#FAFAFA; color: black">#FAFAFA</span>
+`lightGrey` - ![#FAFAFA](https://placehold.it/15/FAFAFA/000000?text=+) <span style="background:#FAFAFA; color: black">#FAFAFA</span>
 
-`white` - <span style="background:#FFFFFF; color: black">#FFFFFF</span>
+`white` - ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) <span style="background:#FFFFFF; color: black">#FFFFFF</span>
 
 #### Using Spacing Example:
 
