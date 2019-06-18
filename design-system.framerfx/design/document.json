@@ -2,57 +2,92 @@
   "root" : {
     "__class" : "RootNode",
     "children" : [
+      {
+        "__class" : "FrameNode",
+        "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
 
+        ],
+        "clip" : true,
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "white",
+        "fillEnabled" : true,
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillLinearGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillRadialGradient" : {
+          "__class" : "RadialGradient",
+          "alpha" : 1,
+          "centerAnchorX" : 0.5,
+          "centerAnchorY" : 0.5,
+          "end" : "black",
+          "heightFactor" : 0.5,
+          "start" : "rgba(0,0,0,0)",
+          "widthFactor" : 0.5
+        },
+        "fillType" : "color",
+        "height" : 639,
+        "heightType" : 0,
+        "id" : "QuX5YIelY",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "isExternalMaster" : null,
+        "isMaster" : false,
+        "isTarget" : false,
+        "left" : -172,
+        "locked" : false,
+        "name" : null,
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "iEDNh42Sf",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "replicaInfo" : null,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -105,
+        "visible" : true,
+        "width" : 598,
+        "widthType" : 0
+      }
     ],
     "id" : "iEDNh42Sf",
     "name" : null,
     "originalid" : null,
     "parentid" : null,
     "tokens" : {
-      "0d7f1d48-c436-4106-ad95-f402ad8cd381" : {
-        "__class" : "ColorTokenNode",
-        "id" : "0d7f1d48-c436-4106-ad95-f402ad8cd381",
-        "name" : "warning",
-        "value" : "rgb(252, 217, 120)"
-      },
-      "1ce8a50f-dd31-4e55-ba15-6c84854d5d0c" : {
-        "__class" : "ColorTokenNode",
-        "id" : "1ce8a50f-dd31-4e55-ba15-6c84854d5d0c",
-        "name" : "body",
-        "value" : "rgb(107, 107, 107)"
-      },
-      "93ad7fef-4f3d-45fe-95e7-c77aeec95a11" : {
-        "__class" : "ColorTokenNode",
-        "id" : "93ad7fef-4f3d-45fe-95e7-c77aeec95a11",
-        "name" : "secondary",
-        "value" : "rgb(111, 76, 229)"
-      },
-      "a9e0378a-f2cd-43c2-a00f-a9f3effab66f" : {
-        "__class" : "ColorTokenNode",
-        "id" : "a9e0378a-f2cd-43c2-a00f-a9f3effab66f",
-        "name" : "error",
-        "value" : "rgb(215, 95, 120)"
-      },
-      "b87306bc-ed79-4d2c-b669-659752ff1a83" : {
-        "__class" : "ColorTokenNode",
-        "id" : "b87306bc-ed79-4d2c-b669-659752ff1a83",
-        "name" : "primary",
-        "value" : "rgb(71, 218, 159)"
-      },
-      "e76b5bf4-d4d4-46f3-a180-edaad58e520b" : {
-        "__class" : "ColorTokenNode",
-        "id" : "e76b5bf4-d4d4-46f3-a180-edaad58e520b",
-        "name" : "accent",
-        "value" : "rgb(0, 136, 146)"
-      }
+
     },
     "tokensIndex" : [
-      "1ce8a50f-dd31-4e55-ba15-6c84854d5d0c",
-      "b87306bc-ed79-4d2c-b669-659752ff1a83",
-      "93ad7fef-4f3d-45fe-95e7-c77aeec95a11",
-      "a9e0378a-f2cd-43c2-a00f-a9f3effab66f",
-      "0d7f1d48-c436-4106-ad95-f402ad8cd381",
-      "e76b5bf4-d4d4-46f3-a180-edaad58e520b"
+
     ],
     "visible" : false
   },
