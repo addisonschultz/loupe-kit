@@ -112,6 +112,7 @@ We have a list of components you can pick from to help build our design system:
 - Card
 - Hero
 - Banner
+- Avatar
 - Icon
 - Checkbox
 - Radio Button
@@ -124,3 +125,21 @@ We have a list of components you can pick from to help build our design system:
 - Loader
 - Slider
 - Stepper
+
+---
+
+### Important Notes:
+
+When pull requests are made, the components made will be run through some tests to make sure they will compile correctly. It's important to make sure to have the following defined in order to pass all checks:
+
+- Type definitions
+
+```
+type Props = {
+    text: string
+}
+
+export function Element(props: Props) {
+    return <StyledElement />
+}
+```
