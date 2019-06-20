@@ -1,4 +1,4 @@
-# Loupe Design System
+# Loupe Design System 2
 
 Welcome to Loupe 2019, a conference on interactive design and creative coding.
 
