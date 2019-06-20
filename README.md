@@ -2,7 +2,7 @@
 
 Welcome to Loupe 2019, a conference on interactive design and creative coding.
 
-Here at Framer, we aim to fully bridge the gap between designers and developers, through collaboration and shared design systems. This is what we'll be doing today!
+Here at Framer, we're aiming to fully bridge the gap between designers and developers, through collaboration and shared design systems. This is what we'll be building today!
 
 ## Overview
 
@@ -22,10 +22,12 @@ We have a few pre-requisites you'll need in order to follow along.
 We'll be using styled-components to make designing and coding our components more streamlined. This also allows us to integrate more fully with Framer X, if we use variables from Framer inside of our code.
 
 1. [Fork this repository](https://help.github.com/en/articles/fork-a-repo).
-1. [Clone the forked repository](https://help.github.com/en/articles/cloning-a-repository) locally
-1. Run `yarn` to install dependencies
-1. When the component is made, stage and commit your changes and push them to github
-1. [Make a pull request](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork) to merge back into the master branch
+1. [Clone the forked repository](https://help.github.com/en/articles/cloning-a-repository) locally.
+1. Run `yarn` to install dependencies.
+1. When your component is made, stage and commit your changes, and then push them to github.
+1. [Make a pull request](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork) to merge back into the master branch.
+
+Our repository is already configured to run framer-cli commands, which will allow us to publish our components automatically when we commit new changes!
 
 ---
 
@@ -61,20 +63,37 @@ There are a total of 8 colors from the Loupe Design System:
 
 #### Using Spacing Example:
 
+```
+import { theme } from "../theme";
+
+const StyledElement = styled.div`
+    padding: ${theme.space[0]};
+`
+```
+
 #### Using Fonts Example:
+
+```
+import { theme } from "../theme";
+
+const StyledElement = styled.div`
+    font-family: ${theme.font};
+`
+```
 
 #### Components:
 
 We have a list of components you can pick from to help build our design system:
 
 - Button
-- Link
+- CTA Link
 - Card
+- Hero
 - Banner
+- Icon
 - Checkbox
 - Radio Button
 - Navigation
-- Icon
 - Chip
 - List
 - Input
