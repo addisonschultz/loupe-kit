@@ -1,6 +1,6 @@
 # Loupe Design System
 
-Welcome to Loupe 2019, a conference on interactive design and creative coding.
+Welcome to [Loupe 2019](https://framer.com/loupe), a conference on interactive design and creative coding.
 
 Here at Framer, we're aiming to fully bridge the gap between designers and developers, through collaboration and shared design systems. This is what we'll be building today!
 
@@ -21,6 +21,8 @@ We have a few pre-requisites you'll need in order to follow along.
 
 We'll be using styled-components to make designing and coding our components more streamlined. This also allows us to integrate more fully with Framer X, if we use variables from Framer inside of our code.
 
+You'll be using Framer Web to collaborate with designers in real-time, but can also open the design-system.framerfx file in Desktop Framer X to see the visual version of the component you're building.
+
 1. [Fork this repository](https://help.github.com/en/articles/fork-a-repo).
 1. [Clone the forked repository](https://help.github.com/en/articles/cloning-a-repository) locally.
 1. Run `yarn` to install dependencies.
@@ -29,7 +31,7 @@ We'll be using styled-components to make designing and coding our components mor
 
 Our repository is already configured to run framer-cli commands, which will allow us to publish our components automatically when we commit new changes!
 
-We have some already defined colors and fonts ready to be used, which you can use as varibles in your code. See the examples below on how to use these colors to stay true to the Loupe Design System.
+We have some already defined colors, fonts, and spacing values ready to be used, which you can use as varibles in your code. See the examples below on how to use these colors to stay true to the Loupe Design System.
 
 ---
 
@@ -96,6 +98,8 @@ const StyledElement = styled.div`
     font-family: ${theme.font};
 `
 ```
+
+We have a collection of preset official Loupe fonts that will render in your components when using the font variable method described above.
 
 ---
 
