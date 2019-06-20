@@ -45,7 +45,7 @@ const StyledElement = styled.div`
 
 There are a total of 8 colors from the Loupe Design System:
 
-`primary` - ![#0055FF](https://placehold.it/15/0055FF/000000?text=+) <span style="background:#0055FF; color: white">#0055FF</span>
+![#0055FF](https://placehold.it/15/0055FF/000000?text=+) <span style="background:#0055FF; color: white">#0055FF</span> - `primary`
 
 `secondary` - ![#98E7FF](https://placehold.it/15/98E7FF/000000?text=+) <span style="background:#98E7FF; color: black">#98E7FF</span>
 
