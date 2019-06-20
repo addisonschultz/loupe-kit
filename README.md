@@ -24,12 +24,12 @@ We'll be using styled-components to make designing and coding our components mor
 1. [Fork this repository](https://help.github.com/en/articles/fork-a-repo).
 1. [Clone the forked repository](https://help.github.com/en/articles/cloning-a-repository) locally
 1. Run `yarn` to install dependencies
+1. When the component is made, stage and commit your changes and push them to github
+1. [Make a pull request](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork) to merge back into the master branch
 
 ---
 
-1. [Clone this repository](https://help.github.com/en/articles/cloning-a-repository) locally
-1. `cd` into this directory and run `git checkout -b loupe-component` to create a new branch
-1. Run `yarn` to install dependencies
+We have some already defined colors and fonts ready to be used, which you can use as varibles in your code. See the examples below on how to use these colors to stay true to the Loupe Design System.
 
 #### Using Colors Example:
 
