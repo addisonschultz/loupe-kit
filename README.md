@@ -28,7 +28,7 @@ We'll be using styled-components to make designing and coding our components mor
 ---
 
 1. [Clone this repository](https://help.github.com/en/articles/cloning-a-repository) locally
-1. `cd` into this directory and run `git checkout loupe-NewComponent -b` to create a new branch
+1. `cd` into this directory and run `git checkout -b loupe-component` to create a new branch
 1. Run `yarn` to install dependencies
 
 #### Using Colors Example:
