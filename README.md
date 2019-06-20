@@ -12,14 +12,14 @@ We'll be splitting up into smaller teams, with at least one developer and one de
 
 We have a few pre-requisites you'll need in order to follow along.
 
-- node.js
-- git
-- Text/Code Editor
+- [Node.js](https://nodejs.org/en/)
+- [Git](https://git-scm.com/)
+- [Text/Code Editor](https://code.visualstudio.com/)
 - Framer X
 
 ## Getting Started
 
-We'll be using styled-components to make designing and coding our components more streamlined. This also allows us to integrate more fully with Framer X, if we use variables from Framer inside of our code.
+We'll be using [styled-components](https://www.styled-components.com/) to make designing and coding our components more streamlined. This also allows us to integrate more fully with Framer X, if we use variables from Framer inside of our code.
 
 You'll be using Framer Web to collaborate with designers in real-time, but can also open the design-system.framerfx file in Desktop Framer X to see the visual version of the component you're building.
 
