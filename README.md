@@ -29,9 +29,9 @@ We'll be using styled-components to make designing and coding our components mor
 
 Our repository is already configured to run framer-cli commands, which will allow us to publish our components automatically when we commit new changes!
 
----
-
 We have some already defined colors and fonts ready to be used, which you can use as varibles in your code. See the examples below on how to use these colors to stay true to the Loupe Design System.
+
+---
 
 #### Using Colors Example:
 
@@ -61,6 +61,8 @@ There are a total of 8 colors from the Loupe Design System:
 
 ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) <span style="background:#FFFFFF; color: black">#FFFFFF</span> - `white`
 
+---
+
 #### Using Spacing Example:
 
 ```
@@ -71,6 +73,20 @@ const StyledElement = styled.div`
 `
 ```
 
+There are a total of 5 spacing options from the Loupe Design System:
+
+0px - `${theme.space[0]}`
+
+4px - `${theme.space[1]}`
+
+8px - `${theme.space[2]}`
+
+16px - `${theme.space[3]}`
+
+32px - `${theme.space[4]}`
+
+---
+
 #### Using Fonts Example:
 
 ```
@@ -80,6 +96,8 @@ const StyledElement = styled.div`
     font-family: ${theme.font};
 `
 ```
+
+---
 
 #### Components:
 
