@@ -2,11 +2,11 @@
 
 Welcome to [Loupe 2019](https://framer.com/loupe), a conference on interactive design and creative coding.
 
-Here at Framer, we're aiming to fully bridge the gap between designers and developers, through collaboration and shared design systems. This is what we'll be building today!
+Here at Framer, we're aiming to fully bridge the gap between designers and developers, through collaboration and shared design systems. Today, we'll be exploring this workflow together!
 
 ## Overview
 
-We'll be splitting up into smaller teams, with at least one developer and one designer. Our goal is to create a shared design system with components built ready for Framer X and Production. Through this, we'll gain a deeper understanding of what the collaboration aspect looks like in Framer X.
+We'll be splitting up into smaller teams, with at least one developer and one designer. Our goal is to create a shared design system with components built ready for both Framer X and Production. Through this, we'll gain a deeper understanding of what the collaboration aspect looks like in Framer X.
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ We have a few pre-requisites you'll need in order to follow along.
 
 ## Getting Started
 
-We'll be using [styled-components](https://www.styled-components.com/) to make designing and coding our components more streamlined. This also allows us to integrate more fully with Framer X, if we use variables from Framer inside of our code.
+We'll be using [styled-components](https://www.styled-components.com/) to make designing and coding our components more streamlined. This also allows us to integrate more fully with Framer X, if we use variables from Framer inside of our code. This is already listed as a dependency, and will get installed when you first clone and run `yarn` in this project.
 
 You'll be using Framer Web to collaborate with designers in real-time, but can also open the design-system.framerfx file in Desktop Framer X to see the visual version of the component you're building.
 
