@@ -141,7 +141,7 @@ type Props = {
 const StyledElement = styled.div`
     color: ${theme.color.primary};
     &.secondary {
-        // Define CSS when hovered
+        // Define CSS when prop for secondary is true
     }
 `
 
