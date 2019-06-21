@@ -108,7 +108,7 @@ We have a collection of preset official Loupe fonts that will render in your com
 
 ### CSS Selectors and Props in `styled-components`
 
-Here are common patterns to add CSS Selectors to your components, like `hover` and `active` in styled-components that you might use when making your components.
+Here are common patterns to add CSS Selectors to your components, like `hover` and `active` in styled-components.
 
 ```
 import styled from "styled-components"
@@ -121,8 +121,38 @@ const StyledElement = styled.div`
     &:active {
         // Define CSS when active
     }
-
 `
+```
+
+---
+
+### Component States and Props in `styled-components`
+
+Here are common patterns to add className states to your components, like `primary` or `secondary` in styled-components. These might be controlled by a prop that is passed into the component when it renders.
+
+```
+import styled from "styled-components"
+
+type Props = {
+    secondary: boolean;
+}
+
+// Styled Component
+const StyledElement = styled.div`
+    color: ${theme.color.primary};
+    &.secondary {
+        // Define CSS when hovered
+    }
+`
+
+// Main Component
+export const Element: React.FC<Props> = ({
+  secondary
+}) => (
+  <StyledElement
+    className={`${secondary ? "secondary" : ""}`}
+  />
+)
 ```
 
 ---
