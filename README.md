@@ -39,6 +39,7 @@ We have some already defined colors, fonts, and spacing values ready to be used,
 
 ```
 import { theme } from "../theme";
+import styled from "styled-components"
 
 const StyledElement = styled.div`
     color: ${theme.color.primary};
@@ -69,6 +70,7 @@ There are a total of 8 colors from the Loupe Design System:
 
 ```
 import { theme } from "../theme";
+import styled from "styled-components"
 
 const StyledElement = styled.div`
     padding: ${theme.space[0]};
@@ -93,6 +95,7 @@ There are a total of 5 spacing options from the Loupe Design System:
 
 ```
 import { theme } from "../theme";
+import styled from "styled-components"
 
 const StyledElement = styled.div`
     font-family: ${theme.font};
@@ -100,6 +103,27 @@ const StyledElement = styled.div`
 ```
 
 We have a collection of preset official Loupe fonts that will render in your components when using the font variable method described above.
+
+---
+
+### CSS Selectors and Props in `styled-components`
+
+Here are common patterns to add CSS Selectors to your components, like `hover` and `active` in styled-components that you might use when making your components.
+
+```
+import styled from "styled-components"
+
+const StyledElement = styled.div`
+    color: ${theme.color.primary};
+    &:hover {
+        // Define CSS when hovered
+    }
+    &:active {
+        // Define CSS when active
+    }
+
+`
+```
 
 ---
 
