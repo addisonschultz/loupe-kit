@@ -206,5 +206,4 @@ It's also important to remember to include your component and it's props in the 
 
 ```
 export { Example, Props as ExampleProps } from "./components/Example";
-
 ```
