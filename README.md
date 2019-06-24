@@ -106,7 +106,7 @@ We have a collection of preset official Loupe fonts that will render in your com
 
 ---
 
-### CSS Selectors and Props in `styled-components`
+#### CSS Selectors and Props in `styled-components`
 
 Here are common patterns to add CSS Selectors to your components, like `hover` and `active` in styled-components.
 
@@ -126,7 +126,7 @@ const StyledElement = styled.div`
 
 ---
 
-### Component States and Props in `styled-components`
+#### Component States and Props in `styled-components`
 
 Here are common patterns to add className states to your components, like `primary` or `secondary` in styled-components. These might be controlled by a prop that is passed into the component when it renders.
 
