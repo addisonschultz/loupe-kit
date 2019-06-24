@@ -182,11 +182,13 @@ We have a list of components you can pick from to help build our design system:
 
 ---
 
-### Important Notes:
+## Important Notes:
 
 When pull requests are made, the components made will be run through some tests to make sure they will compile correctly. It's important to make sure to have the following defined in order to pass all checks:
 
-- Type definitions
+- **Type definitions**
+
+We're going to be making Typescript React Components, so for any props you want to use in your components, it's important to rembeber to include type definitions. This is how Framer X will know what Property Control to assign to your component when it's being rendered in Framer X
 
 ```
 type Props = {
@@ -197,3 +199,5 @@ export function Element(props: Props) {
     return <StyledElement />
 }
 ```
+
+- **Default Exports**
