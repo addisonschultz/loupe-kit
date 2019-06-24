@@ -188,7 +188,7 @@ When pull requests are made, the components made will be run through some tests 
 
 - **Type definitions**
 
-We're going to be making Typescript React Components, so for any props you want to use in your components, it's important to rembeber to include type definitions. This is how Framer X will know what Property Control to assign to your component when it's being rendered in Framer X
+We're going to be making Typescript React Components, so for any props you want to use in your components, it's important to rembeber to include type definitions. This is how Framer X will know what Property Control to assign to your component when it's being rendered in Framer X.
 
 ```
 type Props = {
@@ -201,3 +201,10 @@ export function Element(props: Props) {
 ```
 
 - **Default Exports**
+
+It's also important to remember to include your component and it's props in the export contained by index.tsx. An example export in index.tsx might look like this:
+
+```
+export { Example, Props as ExampleProps } from "./components/Example";
+
+```
