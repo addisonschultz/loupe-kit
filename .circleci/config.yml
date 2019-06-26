@@ -4,6 +4,29 @@
 #
 version: 2
 jobs:
+  import:
+    docker:
+      - image: circleci/node:10
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+      - run: git clone https://${GITHUB_PERSONAL_TOKEN}@github.com/framer/ComponentImporter.git
+      - run: yarn --cwd ComponentImporter build
+      - run: yarn build:components
+      - run:
+          name: "Setup Git user.email"
+          command: git config --global user.email addison@framer.com
+      - run:
+          name: "Setup Git user.name"
+          command: git config --global user.name addisonschultz
+      - run: git add .
+      - run: git commit -m "someone added a new component! [skip ci]"
+      - run:
+          name: "Push components back to Github"
+          command: git push -q https://${GITHUB_PERSONAL_TOKEN}@github.com/addisonschultz/importingTest.git master
+
   build:
     docker:
       - image: circleci/node:10
@@ -12,8 +35,9 @@ jobs:
 
     steps:
       - checkout
+      - run: git pull
       - run: yarn
-      - run: npx framer-cli build design-system.framerfx 
+      - run: npx framer-cli build design-system.framerfx
 
   publish:
     docker:
@@ -23,16 +47,21 @@ jobs:
 
     steps:
       - checkout
+      - run: git pull
       - run: yarn
       - run: npx framer-cli publish design-system.framerfx --yes
 
 workflows:
   version: 2
-  test-and-publish:
+  import-build-publish:
     jobs:
-      - build
+      - import
+      - build:
+          requires:
+            - import
       - publish:
           requires:
+            - import
             - build
           filters:
             branches:
