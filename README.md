@@ -32,13 +32,13 @@ You'll be using Framer Web to collaborate with designers in real-time, but can a
 
 Our repository is already configured to run framer-cli commands, which will allow us to publish our components automatically when we commit new changes!
 
-We have some already defined colors, fonts, and spacing values ready to be used, which you can use as varibles in your code. See the examples below on how to use the Loupe theme to stay true to the Loupe Design System.
-
 Finally, there is already an example component under `design-system/components/Example.tsx`, so if you get stuck or need some guidance, you can explore what the code looks like for some help!
 
 ---
 
 ## Examples
+
+We have some already defined colors, fonts, and spacing values ready to be used, which you can use as varibles in your code. See the examples below on how to use the Loupe theme to stay true to the Loupe Design System.
 
 #### Using Colors Example:
 
