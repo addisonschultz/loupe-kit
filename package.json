@@ -5,7 +5,8 @@
   "main": "index.js",
   "keywords": [
     "design system",
-    "framer"
+    "framer",
+    "loupe"
   ],
   "author": "Framer",
   "license": "MIT",
