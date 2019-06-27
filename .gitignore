@@ -1,6 +1,12 @@
 .DS_Store
-node_modules
+**/node_modules/*
 
 /design-system.framerfx/design/
 
+/design-system.framerfx/.yarnrc
+
 /design-system/tsconfig.json
+
+/ComponentImporter/
+
+!**/node_modules/@framer
