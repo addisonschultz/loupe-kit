@@ -2,7 +2,7 @@
 #
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
-version: 2
+version: 2.1
 jobs:
   import:
     docker:
@@ -22,7 +22,7 @@ jobs:
           name: "Setup Git user.name"
           command: git config --global user.name addisonschultz
       - run: git add .
-      - run: git commit -m "someone added a new component! [skip ci]"
+      - run: git commit -m "someone added a new component! [skip ci]" --allow-empty
       - run:
           name: "Push components back to Github"
           command: git push -q https://${GITHUB_PERSONAL_TOKEN}@github.com/addisonschultz/importingTest.git master
@@ -35,9 +35,12 @@ jobs:
 
     steps:
       - checkout
-      - run: git pull
-      - run: yarn
-      - run: npx framer-cli build design-system.framerfx
+      - run:
+          command: git pull
+      - run:
+          command: yarn
+      - run:
+          command: npx framer-cli build design-system.framerfx
 
   publish:
     docker:
@@ -47,12 +50,15 @@ jobs:
 
     steps:
       - checkout
-      - run: git pull
-      - run: yarn
-      - run: npx framer-cli publish design-system.framerfx --yes
+      - run:
+          command: git pull
+      - run:
+          command: yarn
+      - run:
+          command: npx framer-cli publish design-system.framerfx --yes
 
 workflows:
-  version: 2
+  version: 2.1
   import-build-publish:
     jobs:
       - import
