@@ -38,7 +38,7 @@ Finally, there is already an example component under `design-system/components/E
 
 ## Examples
 
-We have some already defined colors, fonts, and spacing values ready to be used, which you can use as varibles in your code. See the examples below on how to use the Loupe theme to stay true to the Loupe Design System.
+We have some already defined colors, fonts, and spacing values ready to be used, which you can use as varibles in your code. There are also some exmaples below on using state and props in Styled Components! See the examples below on how to use the Loupe theme and Styled Components to stay true to the Loupe Design System.
 
 #### Using Colors Example:
 
