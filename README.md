@@ -201,7 +201,7 @@ type Props = {
 }
 
 export function Element(props: Props) {
-    return <StyledElement />
+    return <StyledElement>{props.text}</StyledElement>
 }
 ```
 
